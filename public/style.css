@@ -5,13 +5,12 @@
 }
 
 .container {
-    float: center;
-    text-align: center;
-    width: 450px;
-    font-size: larger;
-    border-radius: 30px;
+    border-radius: 5px;
+    width: 200px;
+    border-color: lightblue solid 1px;
     background-color: rgb(33, 197, 88);
     padding: 20px;
+    word-spacing: 13px;
 }
 
 .left {

@@ -5,22 +5,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CW1 - group work </title>
-    <link rel="stylesheet" href="style.css" />
+    <title>CW2 Group Work </title>
     <script src="https://unpkg.com/vue@2.7.8/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div id="app">
-        <ul>
-            <div v-for="lesson in alllessons">
-                <div class="container ">
+        <div v-for="lesson in alllessons">
+            <ul>
+                    <div class="container ">
                     <li>topic: {{ lesson.topic }}</li>
                     <li>location: {{ lesson.location }}</li>
                     <li>price: {{ lesson.price }}</li>
                 </div>
-            </div>
-        </ul>
+                </ul>
+            <br style="margin:0px">
+        </div>
     </div>
 
     <script>
@@ -28,7 +29,7 @@
             el: '#app',
             data: {
                 alllessons: [
-
+                    // dynamicly adding from get request
                 ],
             },
             created: function () {
