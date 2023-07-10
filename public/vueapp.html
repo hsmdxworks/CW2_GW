@@ -12,17 +12,37 @@
 
 <body>
     <div id="app">
-        <ul class="lesson-boxes">
-            <div v-for="lesson in lessons" class="lesson-box">
+        <ul>
+            <div v-for="lesson in alllessons">
                 <div class="container ">
-                <li>
-                    topic: {{ lesson.topic }}
-                </li>
-            </div>
+                    <li>topic: {{ lesson.topic }}</li>
+                    <li>location: {{ lesson.location }}</li>
+                    <li>price: {{ lesson.price }}</li>
+                </div>
             </div>
         </ul>
     </div>
 
+    <script>
+        let app = new Vue({
+            el: '#app',
+            data: {
+                alllessons: [
+
+                ],
+            },
+            created: function () {
+                fetch("/lessons").then(
+                    function (response) {
+                        response.json().then(
+                            function (j) {
+                                app.alllessons = j;
+                            })
+                    }
+                )
+            }
+        });
+    </script>
 </body>
 
 </html>
