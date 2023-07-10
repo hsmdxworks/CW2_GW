@@ -1,0 +1,40 @@
+#img {
+    width: 250px;
+    border-radius: 10px;
+    float: left;
+}
+
+.container {
+    float: center;
+    text-align: center;
+    width: 450px;
+    font-size: larger;
+    border-radius: 30px;
+    background-color: rgb(33, 197, 88);
+    padding: 20px;
+}
+
+.left {
+    text-align: left !important;
+}
+
+#addSelected {
+    border-radius: 5px;
+    border: 1px dotted darkorange;
+    color: rgb(0, 0, 0);
+    background-color: darkorange;
+    height: 40px;
+}
+
+.head {
+    font-family: 'Courier New', Courier, monospace;
+    float: center;
+    text-align: center;
+    font-size: larger;
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 197);
+}
