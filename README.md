@@ -9,16 +9,11 @@ https://hsmdxworks.github.io/CW2_GW/lessons
 https://hsmdxworks.github.io/CW2_GW/users
 
 ### REQUIREMENTS
-- `` Done
-- `` Done
-- `` Done
-- `` Done
-- `` Done
-- `` Done
-- `` Done
-- `` Done 
+- `Create Server ExpressJS` Done
+- `/lesson get request` Done
+- `/users get request` Done
+- `vue app created that display lessons` Done
  
-
 
 
 
