@@ -1,0 +1,29 @@
+{
+  "name": "cw2_group_work",
+  "version": "1.0.0",
+  "description": "Coursework 2, Group work",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsmdxworks/CW2_GW.git"
+  },
+  "keywords": [
+    "CW2",
+    "CW2",
+    "Group",
+    "Work"
+  ],
+  "author": "HARPAL SINGH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsmdxworks/CW2_GW/issues"
+  },
+  "homepage": "https://github.com/hsmdxworks/CW2_GW#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
