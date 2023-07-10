@@ -1,5 +1,8 @@
 const express = require("express");
-const app = express()
+const app = express();
+
+// Require public folder to be seen for template
+app.use(express.static("public"));
 
 app.get("/lessons", function (request, response) {
     const data = [
